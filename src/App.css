@@ -218,3 +218,98 @@
       max-width: 100%; /* Full width on small screens */
   }
 }
+
+/* Style for the page title */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+
+/* Style for the post content */
+.post-content {
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles for the post container */
+.post-container {
+  background-color: #f7f7f7; /* Light gray background */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out; /* Add a transformation on hover */
+}
+
+.post-container:hover {
+  transform: scale(1.05); /* Surprise: Slight zoom in on hover */
+}
+
+/* Style for the post title */
+.post-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: blue; /* Vibrant red */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  animation: bounce 1s infinite alternate; /* Bouncing animation */
+}
+
+/* Styles for the post description */
+.post-description {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  transform: rotate(-2deg); /* Slight rotation for a playful look */
+}
+
+/* Style for the post username */
+.post-username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: red; /* Sky blue */
+  letter-spacing: 2px; /* Increase letter spacing for a unique touch */
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
+}
+
+
+
+
+/* Styles for the like button */
+.like-button {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Surprise style for the like button on hover */
+.like-button:hover {
+  transform: scale(1.2); /* Surprise: Slight enlargement on hover */
+  color: #ff4081; /* Vibrant pink color on hover */
+}
+
+/* Styles for the like count */
+.like-count {
+  font-size: 14px;
+  color: #777;
+}
